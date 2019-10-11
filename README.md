@@ -5,7 +5,7 @@
 You already know how to create a static request, which is where you create a
 page that doesn't take any parameters and simply renders a view. For example:
 `localhost:3000/about`. For Rails to process this request, the `routes.rb` file
-contains a route such as:
+contains a route such as: 
 
 ```ruby
 get 'about', to: "static#about"
